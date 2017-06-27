@@ -75,7 +75,8 @@ var options = {
   verbose: argv.v || argv.verbose,
   secure: argv.n || argv.secure || false,
   db_path: argv.db || null,
-  logger: logger
+  logger: logger,
+  trace_request: argv.trace_request || false
 }
 
 var fork_address;
