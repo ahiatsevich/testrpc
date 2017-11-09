@@ -113,7 +113,8 @@ var options = {
   secure: argv.n || argv.secure || false,
   db_path: argv.db || null,
   account_keys_path: argv.acctKeys || null,
-  logger: logger
+  logger: logger,
+  trace_request: argv.trace_request || false
 }
 
 var fork_address;
